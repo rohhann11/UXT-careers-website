@@ -1,0 +1,16 @@
+
+  <div>
+  {% for job in jobs %}
+    
+    <div class='row'>
+    <div class= 'col-6'>
+  <div style= "margin-bottom :16px, ;">
+     <div><strong> {{ job['title'] }} </strong> </div>
+     <div> Location: {{job['location']}}</div>
+     <div> Salary: {{job['salary']}} </div>
+    <div class='col-5'>
+      <button>Apply</button></div>
+                  </div></div></div>
+      
+      
+  {% endfor %}</div>
